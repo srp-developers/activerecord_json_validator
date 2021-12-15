@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'ActiveRecord::JSONValidator makes it easy to validate JSON attributes with a JSON schema.'
   spec.summary       = spec.description
   spec.homepage      = 'https://github.com/mirego/activerecord_json_validator'
-  spec.license       = 'BSD 3-Clause'
+  spec.license       = 'BSD-3-Clause'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
